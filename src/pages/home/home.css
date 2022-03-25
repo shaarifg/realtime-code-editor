@@ -1,0 +1,77 @@
+.homePageWrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+h4{
+    font-weight: 500;
+}
+.formWrapper{
+    background: #282a36;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 400px;
+    max-width: 90%;
+}
+img{
+    width: 220px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.mainLabel{
+    margin-bottom: 1rem;
+    margin-top: 0%;
+}
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+}
+.inputBox{
+    padding: 1rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: #eee;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.joinBtn{
+    width: 100px;
+    margin-left: auto;
+    font-weight: 600;
+    background: var(--btn-background-variant);
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 1rem;
+}
+.joinBtn:hover{
+    background: #125da3;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: green;
+}
+
+.createInfo{
+    text-align: center;
+}
+
+.createnewBtm{
+    color: #4aed88;
+    text-decoration: none;
+    border-bottom: 1px solid #4aed88;
+    transition:all 0.3s ease-in-out ;
+}
+.createnewBtm:hover{
+    color: #2b824c;
+    border-color: #2b824c;;
+
+}
